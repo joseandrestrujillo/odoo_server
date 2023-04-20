@@ -1,0 +1,332 @@
+2023-04-20 14:57:35,025 1 INFO ? odoo: Odoo version 15.0-20230418 
+2023-04-20 14:57:35,025 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-04-20 14:57:35,025 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-04-20 14:57:35,026 1 INFO ? odoo: database: odoo@db:5432 
+2023-04-20 14:57:35,344 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-04-20 14:57:35,865 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 89e15d9b611a:8069 
+2023-04-20 14:58:33,384 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-20 14:58:33,409 1 INFO ? odoo.http: Generating nondb routing 
+2023-04-20 14:58:33,453 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET / HTTP/1.1" 303 - 1 0.006 0.059
+2023-04-20 14:58:33,504 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web HTTP/1.1" 303 - 2 0.007 0.029
+2023-04-20 14:58:33,639 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/database/selector HTTP/1.1" 200 - 2 0.006 0.114
+2023-04-20 14:58:33,750 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,769 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,777 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,777 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,784 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,788 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,793 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,828 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,829 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,834 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,849 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,853 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,859 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,876 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,877 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,881 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,891 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - - - -
+2023-04-20 14:58:33,921 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:33] "GET /web/static/img/logo2.png HTTP/1.1" 200 - - - -
+2023-04-20 14:58:34,363 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:34] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2023-04-20 14:58:34,504 1 INFO ? werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:34] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - - - -
+2023-04-20 14:58:58,996 1 INFO None werkzeug: 172.24.0.1 - - [20/Apr/2023 14:58:58] "POST /web/database/create HTTP/1.1" 200 - 2 0.008 0.097
+2023-04-20 15:00:12,061 1 INFO None werkzeug: 172.24.0.1 - - [20/Apr/2023 15:00:12] "POST /web/database/create HTTP/1.1" 200 - 2 0.007 0.093
+2023-04-20 15:03:00,671 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-20 15:03:00,672 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-20 15:03:00,687 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-04-20 15:05:59,556 1 INFO ? odoo: Odoo version 15.0-20230418 
+2023-04-20 15:05:59,557 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-04-20 15:05:59,557 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-04-20 15:05:59,558 1 INFO ? odoo: database: odoo@db:5432 
+2023-04-20 15:05:59,670 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-04-20 15:05:59,848 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on d18cab190da8:8069 
+2023-04-20 15:06:29,944 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-20 15:06:29,957 1 INFO ? odoo.http: Generating nondb routing 
+2023-04-20 15:06:30,012 1 INFO None werkzeug: 172.25.0.1 - - [20/Apr/2023 15:06:30] "POST /web/database/create HTTP/1.1" 200 - 2 0.005 0.061
+2023-04-20 15:06:51,053 1 INFO None odoo.service.db: Create database `odoodb`. 
+2023-04-20 15:06:52,583 1 WARNING None odoo.modules.module: Missing `license` key in manifest for 'sqlassistant', defaulting to LGPL-3 
+2023-04-20 15:06:52,829 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-20 15:06:52,829 1 INFO odoodb odoo.modules.loading: Loading module base (1/1) 
+2023-04-20 15:06:52,851 1 INFO odoodb odoo.modules.registry: module base: creating or updating database tables 
+2023-04-20 15:06:54,563 1 INFO odoodb odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2023-04-20 15:06:54,564 1 INFO odoodb odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2023-04-20 15:06:54,564 1 INFO odoodb odoo.models: Storing computed values of ir.module.module.views_by_module 
+2023-04-20 15:06:54,567 1 INFO odoodb odoo.models: Storing computed values of res.partner.display_name 
+2023-04-20 15:06:54,567 1 INFO odoodb odoo.models: Storing computed values of res.partner.partner_share 
+2023-04-20 15:06:54,567 1 INFO odoodb odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2023-04-20 15:06:54,568 1 INFO odoodb odoo.models: Storing computed values of res.partner.commercial_company_name 
+2023-04-20 15:06:54,568 1 INFO odoodb odoo.models: Storing computed values of res.currency.decimal_places 
+2023-04-20 15:06:54,575 1 INFO odoodb odoo.models: Storing computed values of res.company.logo_web 
+2023-04-20 15:06:54,575 1 INFO odoodb odoo.models: Storing computed values of res.company.company_registry 
+2023-04-20 15:06:54,582 1 INFO odoodb odoo.models: Storing computed values of res.users.share 
+2023-04-20 15:06:56,328 1 INFO odoodb odoo.modules.loading: loading base/data/res_bank.xml 
+2023-04-20 15:06:56,340 1 INFO odoodb odoo.modules.loading: loading base/data/res.lang.csv 
+2023-04-20 15:06:56,441 1 INFO odoodb odoo.modules.loading: loading base/data/res_lang_data.xml 
+2023-04-20 15:06:56,475 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_data.xml 
+2023-04-20 15:06:56,561 1 INFO odoodb odoo.modules.loading: loading base/data/res_currency_data.xml 
+2023-04-20 15:06:57,339 1 INFO odoodb odoo.modules.loading: loading base/data/res_company_data.xml 
+2023-04-20 15:06:57,362 1 INFO odoodb odoo.modules.loading: loading base/data/res_users_data.xml 
+2023-04-20 15:06:57,457 1 INFO odoodb odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2023-04-20 15:06:57,471 1 INFO odoodb odoo.modules.loading: loading base/data/res_country_data.xml 
+2023-04-20 15:06:58,291 1 INFO odoodb odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2023-04-20 15:06:58,307 1 INFO odoodb odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2023-04-20 15:06:58,319 1 INFO odoodb odoo.modules.loading: loading base/security/base_groups.xml 
+2023-04-20 15:06:58,779 1 INFO odoodb odoo.modules.loading: loading base/security/base_security.xml 
+2023-04-20 15:06:59,093 1 INFO odoodb odoo.modules.loading: loading base/views/base_menus.xml 
+2023-04-20 15:06:59,246 1 INFO odoodb odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2023-04-20 15:06:59,276 1 INFO odoodb odoo.modules.loading: loading base/views/res_config_views.xml 
+2023-04-20 15:06:59,290 1 INFO odoodb odoo.modules.loading: loading base/data/res.country.state.csv 
+2023-04-20 15:07:00,435 1 INFO odoodb odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2023-04-20 15:07:00,609 1 INFO odoodb odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2023-04-20 15:07:00,640 1 INFO odoodb odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2023-04-20 15:07:00,669 1 INFO odoodb odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2023-04-20 15:07:00,716 1 INFO odoodb odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2023-04-20 15:07:00,751 1 INFO odoodb odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2023-04-20 15:07:00,783 1 INFO odoodb odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2023-04-20 15:07:00,816 1 INFO odoodb odoo.modules.loading: loading base/views/ir_model_views.xml 
+2023-04-20 15:07:01,062 1 INFO odoodb odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2023-04-20 15:07:01,101 1 INFO odoodb odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2023-04-20 15:07:01,144 1 INFO odoodb odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2023-04-20 15:07:01,179 1 INFO odoodb odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2023-04-20 15:07:01,232 1 INFO odoodb odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2023-04-20 15:07:01,262 1 INFO odoodb odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2023-04-20 15:07:01,339 1 INFO odoodb odoo.modules.loading: loading base/views/ir_default_views.xml 
+2023-04-20 15:07:01,372 1 INFO odoodb odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2023-04-20 15:07:01,385 1 INFO odoodb odoo.modules.loading: loading base/report/ir_model_report.xml 
+2023-04-20 15:07:01,393 1 INFO odoodb odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2023-04-20 15:07:01,402 1 INFO odoodb odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2023-04-20 15:07:01,472 1 INFO odoodb odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2023-04-20 15:07:01,485 1 INFO odoodb odoo.modules.loading: loading base/views/ir_module_views.xml 
+2023-04-20 15:07:01,596 1 INFO odoodb odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2023-04-20 15:07:01,720 1 INFO odoodb odoo.modules.loading: loading base/data/ir_module_module.xml 
+2023-04-20 15:07:01,829 1 INFO odoodb odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2023-04-20 15:07:01,836 1 INFO odoodb odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2023-04-20 15:07:01,846 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2023-04-20 15:07:01,866 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2023-04-20 15:07:01,878 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2023-04-20 15:07:01,896 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2023-04-20 15:07:01,925 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2023-04-20 15:07:01,936 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2023-04-20 15:07:01,957 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2023-04-20 15:07:01,978 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2023-04-20 15:07:01,998 1 INFO odoodb odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2023-04-20 15:07:02,005 1 INFO odoodb odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2023-04-20 15:07:02,022 1 INFO odoodb odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2023-04-20 15:07:02,062 1 INFO odoodb odoo.modules.loading: loading base/views/res_company_views.xml 
+2023-04-20 15:07:02,098 1 INFO odoodb odoo.modules.loading: loading base/views/res_lang_views.xml 
+2023-04-20 15:07:02,134 1 INFO odoodb odoo.modules.loading: loading base/views/res_partner_views.xml 
+2023-04-20 15:07:02,303 1 INFO odoodb odoo.modules.loading: loading base/views/res_bank_views.xml 
+2023-04-20 15:07:02,354 1 INFO odoodb odoo.modules.loading: loading base/views/res_country_views.xml 
+2023-04-20 15:07:02,418 1 INFO odoodb odoo.modules.loading: loading base/views/res_currency_views.xml 
+2023-04-20 15:07:02,479 1 INFO odoodb odoo.modules.loading: loading base/views/res_users_views.xml 
+2023-04-20 15:07:02,656 1 INFO odoodb odoo.modules.loading: loading base/views/ir_property_views.xml 
+2023-04-20 15:07:02,688 1 INFO odoodb odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2023-04-20 15:07:02,701 1 INFO odoodb odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2023-04-20 15:07:02,746 1 INFO odoodb odoo.modules.loading: loading base/views/onboarding_views.xml 
+2023-04-20 15:07:02,782 1 INFO odoodb odoo.modules.loading: loading base/security/ir.model.access.csv 
+2023-04-20 15:07:03,030 1 INFO odoodb odoo.modules.loading: Module base: loading demo 
+2023-04-20 15:07:03,031 1 INFO odoodb odoo.modules.loading: loading base/data/res_company_demo.xml 
+2023-04-20 15:07:03,047 1 INFO odoodb odoo.modules.loading: loading base/data/res_users_demo.xml 
+2023-04-20 15:07:03,212 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2023-04-20 15:07:03,223 1 INFO odoodb odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2023-04-20 15:07:03,878 1 INFO odoodb odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2023-04-20 15:07:03,888 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2023-04-20 15:07:04,277 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2023-04-20 15:07:05,098 1 INFO odoodb odoo.modules.loading: Module base loaded in 12.27s, 10986 queries 
+2023-04-20 15:07:05,099 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 12.27s, 10986 queries (+0 extra) 
+2023-04-20 15:07:05,149 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-20 15:07:05,149 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.25.0.1 
+2023-04-20 15:07:06,075 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sqlassistant', defaulting to LGPL-3 
+2023-04-20 15:07:06,305 1 INFO odoodb odoo.modules.loading: loading 7 modules... 
+2023-04-20 15:07:06,305 1 INFO odoodb odoo.modules.loading: Loading module web (2/7) 
+2023-04-20 15:07:06,353 1 INFO odoodb odoo.modules.registry: module web: creating or updating database tables 
+2023-04-20 15:07:07,101 1 INFO odoodb odoo.modules.loading: loading web/security/ir.model.access.csv 
+2023-04-20 15:07:07,120 1 INFO odoodb odoo.modules.loading: loading web/views/webclient_templates.xml 
+2023-04-20 15:07:07,236 1 INFO odoodb odoo.modules.loading: loading web/views/report_templates.xml 
+2023-04-20 15:07:07,393 1 INFO odoodb odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2023-04-20 15:07:07,411 1 INFO odoodb odoo.modules.loading: loading web/views/speedscope_template.xml 
+2023-04-20 15:07:07,424 1 INFO odoodb odoo.modules.loading: loading web/views/lazy_assets.xml 
+2023-04-20 15:07:07,440 1 INFO odoodb odoo.modules.loading: loading web/data/report_layout.xml 
+2023-04-20 15:07:07,487 1 INFO odoodb odoo.modules.loading: Module web: loading demo 
+2023-04-20 15:07:07,509 1 INFO odoodb odoo.modules.loading: Module web loaded in 1.20s, 888 queries 
+2023-04-20 15:07:07,510 1 INFO odoodb odoo.modules.loading: Loading module auth_totp (3/7) 
+2023-04-20 15:07:07,560 1 INFO odoodb odoo.modules.registry: module auth_totp: creating or updating database tables 
+2023-04-20 15:07:07,683 1 INFO odoodb odoo.modules.loading: loading auth_totp/security/security.xml 
+2023-04-20 15:07:07,758 1 INFO odoodb odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2023-04-20 15:07:07,786 1 INFO odoodb odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2023-04-20 15:07:07,797 1 INFO odoodb odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2023-04-20 15:07:07,861 1 INFO odoodb odoo.modules.loading: loading auth_totp/views/templates.xml 
+2023-04-20 15:07:07,879 1 INFO odoodb odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2023-04-20 15:07:07,898 1 INFO odoodb odoo.modules.loading: Module auth_totp: loading demo 
+2023-04-20 15:07:07,941 1 INFO odoodb odoo.modules.loading: Module auth_totp loaded in 0.43s, 194 queries 
+2023-04-20 15:07:07,942 1 INFO odoodb odoo.modules.loading: Loading module base_import (4/7) 
+2023-04-20 15:07:07,990 1 INFO odoodb odoo.modules.registry: module base_import: creating or updating database tables 
+2023-04-20 15:07:09,041 1 INFO odoodb odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2023-04-20 15:07:09,092 1 INFO odoodb odoo.modules.loading: Module base_import: loading demo 
+2023-04-20 15:07:09,111 1 INFO odoodb odoo.modules.loading: Module base_import loaded in 1.17s, 921 queries 
+2023-04-20 15:07:09,111 1 INFO odoodb odoo.modules.loading: Loading module web_editor (5/7) 
+2023-04-20 15:07:09,183 1 INFO odoodb odoo.modules.registry: module web_editor: creating or updating database tables 
+2023-04-20 15:07:09,342 1 INFO odoodb odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2023-04-20 15:07:09,363 1 INFO odoodb odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2023-04-20 15:07:09,372 1 INFO odoodb odoo.modules.loading: loading web_editor/views/editor.xml 
+2023-04-20 15:07:09,421 1 INFO odoodb odoo.modules.loading: loading web_editor/views/snippets.xml 
+2023-04-20 15:07:09,478 1 INFO odoodb odoo.modules.loading: Module web_editor: loading demo 
+2023-04-20 15:07:09,506 1 INFO odoodb odoo.modules.loading: Module web_editor loaded in 0.40s, 247 queries 
+2023-04-20 15:07:09,506 1 INFO odoodb odoo.modules.loading: Loading module web_kanban_gauge (6/7) 
+2023-04-20 15:07:09,560 1 INFO odoodb odoo.modules.loading: Module web_kanban_gauge: loading demo 
+2023-04-20 15:07:09,665 1 INFO odoodb odoo.modules.loading: Module web_kanban_gauge loaded in 0.16s, 20 queries 
+2023-04-20 15:07:09,665 1 INFO odoodb odoo.modules.loading: Loading module web_tour (7/7) 
+2023-04-20 15:07:09,728 1 INFO odoodb odoo.modules.registry: module web_tour: creating or updating database tables 
+2023-04-20 15:07:09,797 1 INFO odoodb odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2023-04-20 15:07:09,822 1 INFO odoodb odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2023-04-20 15:07:09,843 1 INFO odoodb odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2023-04-20 15:07:09,877 1 INFO odoodb odoo.modules.loading: Module web_tour: loading demo 
+2023-04-20 15:07:09,902 1 INFO odoodb odoo.modules.loading: Module web_tour loaded in 0.24s, 118 queries 
+2023-04-20 15:07:09,903 1 INFO odoodb odoo.modules.loading: 7 modules loaded in 3.60s, 2388 queries (+0 extra) 
+2023-04-20 15:07:10,328 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-20 15:07:10,333 1 INFO odoodb odoo.modules.registry: Registry loaded in 17.516s 
+2023-04-20 15:07:10,472 1 INFO odoodb odoo.addons.base.models.res_users: Login successful for db:odoodb login:odoo@odoo.es from 172.25.0.1 
+2023-04-20 15:07:10,500 1 INFO odoodb odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-20 15:07:10,510 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:10] "POST /web/database/create HTTP/1.1" 303 - 17966 12.832 6.653
+2023-04-20 15:07:10,523 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-20 15:07:14,541 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web HTTP/1.1" 200 - 179 0.167 3.854
+2023-04-20 15:07:14,639 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/assets/189-8434828/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.006 0.038
+2023-04-20 15:07:14,653 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/assets/188-d4aa976/web.assets_common.min.css HTTP/1.1" 200 - 2 0.009 0.051
+2023-04-20 15:07:14,654 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/webclient/load_menus/1f5717edb4e7bec8acddc90b224f148fb9c759c1c5c867ed74b93ffc796e8f1b HTTP/1.1" 200 - 1 0.001 0.050
+2023-04-20 15:07:14,658 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/assets/190-d4aa976/web.assets_common.min.js HTTP/1.1" 200 - 2 0.003 0.055
+2023-04-20 15:07:14,677 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 4 0.012 0.058
+2023-04-20 15:07:14,734 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/assets/191-8434828/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.004 0.033
+2023-04-20 15:07:14,752 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/assets/192-c5d9c77/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.004 0.019
+2023-04-20 15:07:14,781 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:14] "GET /web/webclient/qweb/7388709eb1f20938d89010e5ccec4c2e8fbbe1f60b085b70abbcb923589860a6?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.007 0.170
+2023-04-20 15:07:15,066 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.004
+2023-04-20 15:07:15,193 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.022 0.015
+2023-04-20 15:07:15,202 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.038 0.025
+2023-04-20 15:07:15,229 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "POST /web/action/load HTTP/1.1" 200 - 28 0.055 0.031
+2023-04-20 15:07:15,320 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.041 0.037
+2023-04-20 15:07:15,386 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.027 0.020
+2023-04-20 15:07:15,409 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.008
+2023-04-20 15:07:15,498 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /account/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,500 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /crm/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,501 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,546 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,546 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /website/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,546 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /stock/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,608 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,608 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,621 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,628 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /project/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,628 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,634 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,643 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,643 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,649 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,662 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,668 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,669 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,674 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,681 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /hr/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,685 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,689 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,692 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,698 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,706 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,706 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,713 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,720 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,720 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /mail/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,726 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,735 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,736 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,740 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,750 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,757 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,757 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /website_blog/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,771 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,780 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,782 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /survey/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,795 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,803 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /repair/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,803 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /board/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,809 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,822 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,825 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,828 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /note/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,838 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /website_forum/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,842 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,853 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,859 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,861 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,866 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,873 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,877 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,878 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,885 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,896 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,896 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,901 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,926 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,928 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,929 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,944 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:15,944 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:07:15] "GET /payment_sips/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:07:59,999 1 INFO odoodb odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-04-20 15:08:00,029 1 INFO odoodb odoo.addons.base.models.ir_attachment: filestore gc 55 checked, 0 removed 
+2023-04-20 15:08:00,071 1 INFO odoodb odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2023-04-20 15:08:00,102 1 INFO odoodb odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-04-20 15:08:00,114 1 INFO odoodb odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-04-20 15:08:40,232 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:40] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.006 0.011
+2023-04-20 15:08:40,266 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.030 0.022
+2023-04-20 15:08:40,310 1 INFO ? werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:40] "GET /base/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-20 15:08:51,148 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:51] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.036 0.018
+2023-04-20 15:08:51,166 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:51] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.005
+2023-04-20 15:08:55,364 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['sqlassistant'] to user odoo@odoo.es #2 via 172.25.0.1 
+2023-04-20 15:08:55,365 1 INFO odoodb odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-04-20 15:08:55,369 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['sqlassistant'] to user odoo@odoo.es #2 via 172.25.0.1 
+2023-04-20 15:08:55,382 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sqlassistant', defaulting to LGPL-3 
+2023-04-20 15:08:55,438 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-20 15:08:55,447 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-20 15:08:55,468 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-20 15:08:55,469 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.25.0.1 
+2023-04-20 15:08:56,331 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sqlassistant', defaulting to LGPL-3 
+2023-04-20 15:08:56,477 1 INFO odoodb odoo.modules.loading: loading 7 modules... 
+2023-04-20 15:08:56,482 1 INFO odoodb odoo.modules.loading: 7 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-20 15:08:56,483 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sqlassistant', defaulting to LGPL-3 
+2023-04-20 15:08:56,484 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-20 15:08:56,484 1 INFO odoodb odoo.modules.loading: Loading module sqlassistant (2/8) 
+2023-04-20 15:08:56,510 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sqlassistant', defaulting to LGPL-3 
+2023-04-20 15:08:56,534 1 INFO odoodb odoo.modules.loading: loading sqlassistant/views/views.xml 
+2023-04-20 15:08:56,536 1 INFO odoodb odoo.modules.loading: loading sqlassistant/views/templates.xml 
+2023-04-20 15:08:56,537 1 INFO odoodb odoo.modules.loading: Module sqlassistant: loading demo 
+2023-04-20 15:08:56,538 1 INFO odoodb odoo.modules.loading: loading sqlassistant/demo/demo.xml 
+2023-04-20 15:08:56,565 1 INFO odoodb odoo.modules.loading: Module sqlassistant loaded in 0.08s, 19 queries 
+2023-04-20 15:08:56,565 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.08s, 19 queries (+0 extra) 
+2023-04-20 15:08:56,796 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-20 15:08:56,804 1 INFO odoodb odoo.modules.registry: Registry loaded in 1.375s 
+2023-04-20 15:08:56,804 1 INFO odoodb odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-20 15:08:56,810 1 INFO odoodb odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-20 15:08:56,812 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:56] "POST /web/dataset/call_button HTTP/1.1" 200 - 1387 0.798 0.657
+2023-04-20 15:08:56,832 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-20 15:08:57,205 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:57] "GET /web HTTP/1.1" 200 - 164 0.107 0.269
+2023-04-20 15:08:57,574 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.031 0.018
+2023-04-20 15:08:57,592 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:57] "POST /web/action/load HTTP/1.1" 200 - 28 0.028 0.037
+2023-04-20 15:08:57,680 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:57] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.041 0.038
+2023-04-20 15:08:57,733 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.024 0.017
+2023-04-20 15:08:57,751 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:08:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.007
+2023-04-20 15:09:00,784 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.023 0.018
+2023-04-20 15:09:00,801 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-20 15:09:11,488 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:11] "GET / HTTP/1.1" 303 - 1 0.001 0.005
+2023-04-20 15:09:11,520 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:11] "GET /web HTTP/1.1" 200 - 12 0.008 0.018
+2023-04-20 15:09:11,767 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:11] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 6 0.006 0.014
+2023-04-20 15:09:11,776 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:11] "POST /web/action/load HTTP/1.1" 200 - 14 0.012 0.015
+2023-04-20 15:09:11,836 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:11] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 23 0.025 0.026
+2023-04-20 15:09:11,887 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.019 0.017
+2023-04-20 15:09:11,902 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:11] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.005
+2023-04-20 15:09:14,904 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.021 0.016
+2023-04-20 15:09:14,921 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-20 15:09:18,076 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.010
+2023-04-20 15:09:18,109 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:18] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.029 0.020
+2023-04-20 15:09:19,843 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.030 0.018
+2023-04-20 15:09:19,865 1 INFO odoodb werkzeug: 172.25.0.1 - - [20/Apr/2023 15:09:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.006 0.007
+2023-04-20 15:09:48,331 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-20 15:09:48,331 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-20 15:09:48,394 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
