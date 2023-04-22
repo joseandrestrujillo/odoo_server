@@ -67,7 +67,14 @@ class sql_assistant(models.Model):
                       WHERE table_schema != 'pg_catalog'
                       AND table_schema != 'information_schema'
                       AND table_type='BASE TABLE'
+                      
                       ORDER BY table_name""")
+         #             AND table_name LIKE 'addon_name_%'
+        """
+        AND table_name LIKE 'account_%'
+                      AND table_name LIKE 'product_%'
+                      AND table_name LIKE 'sale_%'
+                      AND table_name LIKE 'stock_%'"""
         script = ""
         tables = cur.fetchall()
         for table in tables:
