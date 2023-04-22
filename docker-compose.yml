@@ -11,6 +11,19 @@ services:
     volumes:
         - ./postgresql:/var/lib/postgresql/data
 
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    ports:
+      - "5057:80"
+    depends_on:
+      - db
+    environment:
+      PGADMIN_DEFAULT_EMAIL: odoodb@odoodb.es
+      PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
   odoo15:
     image: odoo:15
     user: root
@@ -33,3 +46,5 @@ services:
       - ./etc:/etc/odoo
     restart: always             
     
+volumes:
+  pgadmin-data:
