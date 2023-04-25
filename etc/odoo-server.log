@@ -36334,3 +36334,841 @@ AttributeError: 'dict' object has no attribute 'data'
 2023-04-24 19:12:52,581 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2023-04-24 19:12:53,013 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
 2023-04-24 19:12:53,034 1 INFO odoodb werkzeug: 172.23.0.1 - - [24/Apr/2023 19:12:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 22.065
+2023-04-25 13:56:33,535 1 INFO ? odoo: Odoo version 15.0-20230418 
+2023-04-25 13:56:33,536 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-04-25 13:56:33,536 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-04-25 13:56:33,536 1 INFO ? odoo: database: odoo@db:5432 
+2023-04-25 13:56:33,803 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-04-25 13:56:34,475 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 307488483ab5:8069 
+2023-04-25 13:56:34,987 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 13:56:34,999 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:56:35,193 1 INFO odoodb odoo.modules.loading: loading 46 modules... 
+2023-04-25 13:56:35,768 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-25 13:56:36,680 1 INFO odoodb odoo.modules.loading: 46 modules loaded in 1.49s, 0 queries (+0 extra) 
+2023-04-25 13:56:36,948 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 13:56:36,960 1 INFO odoodb odoo.modules.registry: Registry loaded in 2.083s 
+2023-04-25 13:56:36,987 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 13:56:36,988 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 13:56:37,000 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 13:56:37,521 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:37] "GET / HTTP/1.1" 303 - 16 0.154 2.493
+2023-04-25 13:56:37,522 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:37] "GET / HTTP/1.1" 303 - 3 0.055 2.397
+2023-04-25 13:56:37,523 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:37] "GET / HTTP/1.1" 303 - 3 0.068 1.682
+2023-04-25 13:56:39,202 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:39] "GET /web HTTP/1.1" 200 - 281 0.381 1.284
+2023-04-25 13:56:39,648 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:39] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.020 0.019
+2023-04-25 13:56:39,668 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:39] "POST /web/action/load HTTP/1.1" 200 - 8 0.020 0.031
+2023-04-25 13:56:39,806 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:39] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 21 0.128 0.057
+2023-04-25 13:56:39,858 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-04-25 13:56:40,063 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:40] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.015 0.019
+2023-04-25 13:56:40,152 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:40] "POST /mail/init_messaging HTTP/1.1" 200 - 56 0.103 0.038
+2023-04-25 13:56:40,228 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:40] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.010 0.014
+2023-04-25 13:56:40,248 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:40] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.017 0.016
+2023-04-25 13:56:40,252 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:40] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.019 0.024
+2023-04-25 13:56:42,055 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:42] "POST /web/action/load HTTP/1.1" 200 - 28 0.041 0.024
+2023-04-25 13:56:42,175 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:42] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.062 0.048
+2023-04-25 13:56:42,251 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.038 0.021
+2023-04-25 13:56:42,269 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.006
+2023-04-25 13:56:49,018 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:49] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.007 0.016
+2023-04-25 13:56:49,059 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.041 0.027
+2023-04-25 13:56:50,195 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:50] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.056 0.035
+2023-04-25 13:56:50,229 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.008 0.010
+2023-04-25 13:56:51,356 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['sqlAssistant'] to user odoo@odoo.es #2 via 172.20.0.1 
+2023-04-25 13:56:51,357 1 INFO odoodb odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-04-25 13:56:51,369 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['sqlAssistant'] to user odoo@odoo.es #2 via 172.20.0.1 
+2023-04-25 13:56:51,388 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:56:51,502 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 13:56:51,525 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-04-25 13:56:51,580 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-25 13:56:51,583 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2023-04-25 13:56:53,005 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:56:53,618 1 INFO odoodb odoo.modules.loading: loading 46 modules... 
+2023-04-25 13:56:53,781 1 INFO odoodb odoo.modules.loading: 46 modules loaded in 0.16s, 0 queries (+0 extra) 
+2023-04-25 13:56:53,783 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:56:53,785 1 INFO odoodb odoo.modules.loading: loading 47 modules... 
+2023-04-25 13:56:53,785 1 INFO odoodb odoo.modules.loading: Loading module sql_assistant (3/47) 
+2023-04-25 13:56:54,083 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:56:54,210 1 INFO odoodb odoo.modules.registry: module sql_assistant: creating or updating database tables 
+2023-04-25 13:56:54,608 1 INFO odoodb odoo.modules.loading: loading sql_assistant/security/ir.model.access.csv 
+2023-04-25 13:56:54,651 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/views.xml 
+2023-04-25 13:56:54,713 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/assets.xml 
+2023-04-25 13:56:54,720 1 WARNING odoodb odoo.modules.loading: Transient module states were reset 
+2023-04-25 13:56:54,723 1 ERROR odoodb odoo.modules.registry: Failed to load registry 
+2023-04-25 13:56:54,723 1 ERROR odoodb odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 910, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1330, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1318, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 486, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 474, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 793, in convert_xml_import
+    doc = etree.parse(xmlfile)
+  File "src/lxml/etree.pyx", line 3521, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1900, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1795, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1201, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 615, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 725, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 654, in lxml.etree._raiseParseError
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+  File "/mnt/extra-addons/sql_assistant/views/assets.xml", line 11
+lxml.etree.XMLSyntaxError: Extra content at the end of the document, line 11, column 1
+2023-04-25 13:56:54,762 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 13:56:54,777 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:56:54,802 1 INFO odoodb odoo.modules.loading: loading 46 modules... 
+2023-04-25 13:56:54,857 1 INFO odoodb odoo.modules.loading: 46 modules loaded in 0.05s, 0 queries (+0 extra) 
+2023-04-25 13:56:55,075 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 13:56:55,081 1 INFO odoodb odoo.modules.registry: Registry loaded in 0.330s 
+2023-04-25 13:56:55,082 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:56:55] "POST /web/dataset/call_button HTTP/1.1" 200 - 1219 1.262 2.475
+2023-04-25 13:57:12,018 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-25 13:57:12,018 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-25 13:57:12,395 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2023-04-25 13:57:12,420 1 INFO odoodb werkzeug: 172.20.0.1 - - [25/Apr/2023 13:57:12] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.103 32.702
+2023-04-25 13:57:36,896 1 INFO ? odoo: Odoo version 15.0-20230418 
+2023-04-25 13:57:36,896 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-04-25 13:57:36,896 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-04-25 13:57:36,896 1 INFO ? odoo: database: odoo@db:5432 
+2023-04-25 13:57:37,038 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-04-25 13:57:37,247 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2b37547c7486:8069 
+2023-04-25 13:58:05,994 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-25 13:58:06,010 1 INFO odoodb odoo.sql_db: Connection to the database failed 
+2023-04-25 13:58:06,013 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:58:06] "GET /web HTTP/1.1" 500 - 0 0.000 0.017
+2023-04-25 13:58:06,025 1 ERROR odoodb werkzeug: Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoodb'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 312, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/lib/python3/dist-packages/odoo/service/server.py", line 482, in app
+    return self.app(e, s)
+  File "/usr/lib/python3/dist-packages/odoo/service/wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "/usr/lib/python3/dist-packages/odoo/service/wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1295, in __call__
+    return self.dispatch(environ, start_response)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1261, in __call__
+    return self.app(environ, start_wrapped)
+  File "/usr/lib/python3/dist-packages/werkzeug/middleware/shared_data.py", line 260, in __call__
+    return self.app(environ, start_response)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 1472, in dispatch
+    odoo.registry(db).check_signaling()
+  File "/usr/lib/python3/dist-packages/odoo/__init__.py", line 104, in registry
+    return modules.registry.Registry(database_name)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 75, in new
+    registry.init(db_name)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 151, in init
+    with closing(self.cursor()) as cr:
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 728, in cursor
+    return self._db.cursor()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 742, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 603, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 669, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.21.0.2), port 5432 failed: FATAL:  database "odoodb" does not exist - - -
+2023-04-25 13:58:06,188 1 INFO odoodb odoo.sql_db: Connection to the database failed 
+2023-04-25 13:58:06,189 1 INFO odoodb odoo.http: Generating nondb routing 
+2023-04-25 13:58:06,248 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:58:06] "GET /favicon.ico HTTP/1.1" 404 - 0 0.000 0.074
+2023-04-25 13:58:19,890 1 INFO ? werkzeug: 172.21.0.1 - - [25/Apr/2023 13:58:19] "GET /web HTTP/1.1" 303 - 2 0.017 0.027
+2023-04-25 13:58:20,002 1 INFO ? werkzeug: 172.21.0.1 - - [25/Apr/2023 13:58:20] "GET /web/database/selector HTTP/1.1" 200 - 2 0.006 0.094
+2023-04-25 13:58:54,283 1 INFO None odoo.service.db: Create database `odoodb`. 
+2023-04-25 13:58:56,159 1 WARNING None odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:58:56,931 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 13:58:56,932 1 INFO odoodb odoo.modules.loading: Loading module base (1/1) 
+2023-04-25 13:58:56,979 1 INFO odoodb odoo.modules.registry: module base: creating or updating database tables 
+2023-04-25 13:58:59,300 1 INFO odoodb odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2023-04-25 13:58:59,300 1 INFO odoodb odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2023-04-25 13:58:59,300 1 INFO odoodb odoo.models: Storing computed values of ir.module.module.views_by_module 
+2023-04-25 13:58:59,306 1 INFO odoodb odoo.models: Storing computed values of res.partner.display_name 
+2023-04-25 13:58:59,306 1 INFO odoodb odoo.models: Storing computed values of res.partner.partner_share 
+2023-04-25 13:58:59,307 1 INFO odoodb odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2023-04-25 13:58:59,307 1 INFO odoodb odoo.models: Storing computed values of res.partner.commercial_company_name 
+2023-04-25 13:58:59,308 1 INFO odoodb odoo.models: Storing computed values of res.currency.decimal_places 
+2023-04-25 13:58:59,315 1 INFO odoodb odoo.models: Storing computed values of res.company.logo_web 
+2023-04-25 13:58:59,315 1 INFO odoodb odoo.models: Storing computed values of res.company.company_registry 
+2023-04-25 13:58:59,325 1 INFO odoodb odoo.models: Storing computed values of res.users.share 
+2023-04-25 13:59:01,844 1 INFO odoodb odoo.modules.loading: loading base/data/res_bank.xml 
+2023-04-25 13:59:01,856 1 INFO odoodb odoo.modules.loading: loading base/data/res.lang.csv 
+2023-04-25 13:59:01,988 1 INFO odoodb odoo.modules.loading: loading base/data/res_lang_data.xml 
+2023-04-25 13:59:02,037 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_data.xml 
+2023-04-25 13:59:02,196 1 INFO odoodb odoo.modules.loading: loading base/data/res_currency_data.xml 
+2023-04-25 13:59:03,205 1 INFO odoodb odoo.modules.loading: loading base/data/res_company_data.xml 
+2023-04-25 13:59:03,235 1 INFO odoodb odoo.modules.loading: loading base/data/res_users_data.xml 
+2023-04-25 13:59:03,362 1 INFO odoodb odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2023-04-25 13:59:03,385 1 INFO odoodb odoo.modules.loading: loading base/data/res_country_data.xml 
+2023-04-25 13:59:04,426 1 INFO odoodb odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2023-04-25 13:59:04,452 1 INFO odoodb odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2023-04-25 13:59:04,468 1 INFO odoodb odoo.modules.loading: loading base/security/base_groups.xml 
+2023-04-25 13:59:05,209 1 INFO odoodb odoo.modules.loading: loading base/security/base_security.xml 
+2023-04-25 13:59:05,659 1 INFO odoodb odoo.modules.loading: loading base/views/base_menus.xml 
+2023-04-25 13:59:05,860 1 INFO odoodb odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2023-04-25 13:59:05,900 1 INFO odoodb odoo.modules.loading: loading base/views/res_config_views.xml 
+2023-04-25 13:59:05,919 1 INFO odoodb odoo.modules.loading: loading base/data/res.country.state.csv 
+2023-04-25 13:59:07,938 1 INFO odoodb odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2023-04-25 13:59:08,178 1 INFO odoodb odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2023-04-25 13:59:08,227 1 INFO odoodb odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2023-04-25 13:59:08,264 1 INFO odoodb odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2023-04-25 13:59:08,321 1 INFO odoodb odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2023-04-25 13:59:08,360 1 INFO odoodb odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2023-04-25 13:59:08,398 1 INFO odoodb odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2023-04-25 13:59:08,440 1 INFO odoodb odoo.modules.loading: loading base/views/ir_model_views.xml 
+2023-04-25 13:59:08,737 1 INFO odoodb odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2023-04-25 13:59:08,812 1 INFO odoodb odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2023-04-25 13:59:08,885 1 INFO odoodb odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2023-04-25 13:59:08,929 1 INFO odoodb odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2023-04-25 13:59:08,983 1 INFO odoodb odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2023-04-25 13:59:09,019 1 INFO odoodb odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2023-04-25 13:59:09,109 1 INFO odoodb odoo.modules.loading: loading base/views/ir_default_views.xml 
+2023-04-25 13:59:09,148 1 INFO odoodb odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2023-04-25 13:59:09,162 1 INFO odoodb odoo.modules.loading: loading base/report/ir_model_report.xml 
+2023-04-25 13:59:09,172 1 INFO odoodb odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2023-04-25 13:59:09,182 1 INFO odoodb odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2023-04-25 13:59:09,271 1 INFO odoodb odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2023-04-25 13:59:09,287 1 INFO odoodb odoo.modules.loading: loading base/views/ir_module_views.xml 
+2023-04-25 13:59:09,429 1 INFO odoodb odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2023-04-25 13:59:09,623 1 INFO odoodb odoo.modules.loading: loading base/data/ir_module_module.xml 
+2023-04-25 13:59:09,748 1 INFO odoodb odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2023-04-25 13:59:09,756 1 INFO odoodb odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2023-04-25 13:59:09,767 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2023-04-25 13:59:09,791 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2023-04-25 13:59:09,805 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2023-04-25 13:59:09,826 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2023-04-25 13:59:09,862 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2023-04-25 13:59:09,873 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2023-04-25 13:59:09,896 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2023-04-25 13:59:09,919 1 INFO odoodb odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2023-04-25 13:59:09,946 1 INFO odoodb odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2023-04-25 13:59:09,956 1 INFO odoodb odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2023-04-25 13:59:09,977 1 INFO odoodb odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2023-04-25 13:59:10,024 1 INFO odoodb odoo.modules.loading: loading base/views/res_company_views.xml 
+2023-04-25 13:59:10,068 1 INFO odoodb odoo.modules.loading: loading base/views/res_lang_views.xml 
+2023-04-25 13:59:10,111 1 INFO odoodb odoo.modules.loading: loading base/views/res_partner_views.xml 
+2023-04-25 13:59:10,323 1 INFO odoodb odoo.modules.loading: loading base/views/res_bank_views.xml 
+2023-04-25 13:59:10,410 1 INFO odoodb odoo.modules.loading: loading base/views/res_country_views.xml 
+2023-04-25 13:59:10,505 1 INFO odoodb odoo.modules.loading: loading base/views/res_currency_views.xml 
+2023-04-25 13:59:10,572 1 INFO odoodb odoo.modules.loading: loading base/views/res_users_views.xml 
+2023-04-25 13:59:10,762 1 INFO odoodb odoo.modules.loading: loading base/views/ir_property_views.xml 
+2023-04-25 13:59:10,804 1 INFO odoodb odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2023-04-25 13:59:10,820 1 INFO odoodb odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2023-04-25 13:59:10,874 1 INFO odoodb odoo.modules.loading: loading base/views/onboarding_views.xml 
+2023-04-25 13:59:10,924 1 INFO odoodb odoo.modules.loading: loading base/security/ir.model.access.csv 
+2023-04-25 13:59:11,331 1 INFO odoodb odoo.modules.loading: Module base: loading demo 
+2023-04-25 13:59:11,332 1 INFO odoodb odoo.modules.loading: loading base/data/res_company_demo.xml 
+2023-04-25 13:59:11,354 1 INFO odoodb odoo.modules.loading: loading base/data/res_users_demo.xml 
+2023-04-25 13:59:11,637 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2023-04-25 13:59:11,650 1 INFO odoodb odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2023-04-25 13:59:12,504 1 INFO odoodb odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2023-04-25 13:59:12,521 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2023-04-25 13:59:13,019 1 INFO odoodb odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2023-04-25 13:59:14,083 1 INFO odoodb odoo.modules.loading: Module base loaded in 17.15s, 10986 queries 
+2023-04-25 13:59:14,084 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 17.15s, 10986 queries (+0 extra) 
+2023-04-25 13:59:14,153 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-25 13:59:14,154 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.21.0.1 
+2023-04-25 13:59:15,107 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:59:15,614 1 INFO odoodb odoo.modules.loading: loading 7 modules... 
+2023-04-25 13:59:15,614 1 INFO odoodb odoo.modules.loading: Loading module web (2/7) 
+2023-04-25 13:59:15,677 1 INFO odoodb odoo.modules.registry: module web: creating or updating database tables 
+2023-04-25 13:59:16,680 1 INFO odoodb odoo.modules.loading: loading web/security/ir.model.access.csv 
+2023-04-25 13:59:16,704 1 INFO odoodb odoo.modules.loading: loading web/views/webclient_templates.xml 
+2023-04-25 13:59:16,832 1 INFO odoodb odoo.modules.loading: loading web/views/report_templates.xml 
+2023-04-25 13:59:17,030 1 INFO odoodb odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2023-04-25 13:59:17,057 1 INFO odoodb odoo.modules.loading: loading web/views/speedscope_template.xml 
+2023-04-25 13:59:17,070 1 INFO odoodb odoo.modules.loading: loading web/views/lazy_assets.xml 
+2023-04-25 13:59:17,087 1 INFO odoodb odoo.modules.loading: loading web/data/report_layout.xml 
+2023-04-25 13:59:17,156 1 INFO odoodb odoo.modules.loading: Module web: loading demo 
+2023-04-25 13:59:17,185 1 INFO odoodb odoo.modules.loading: Module web loaded in 1.57s, 888 queries 
+2023-04-25 13:59:17,185 1 INFO odoodb odoo.modules.loading: Loading module auth_totp (3/7) 
+2023-04-25 13:59:17,263 1 INFO odoodb odoo.modules.registry: module auth_totp: creating or updating database tables 
+2023-04-25 13:59:17,398 1 INFO odoodb odoo.modules.loading: loading auth_totp/security/security.xml 
+2023-04-25 13:59:17,466 1 INFO odoodb odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2023-04-25 13:59:17,493 1 INFO odoodb odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2023-04-25 13:59:17,507 1 INFO odoodb odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2023-04-25 13:59:17,564 1 INFO odoodb odoo.modules.loading: loading auth_totp/views/templates.xml 
+2023-04-25 13:59:17,579 1 INFO odoodb odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2023-04-25 13:59:17,596 1 INFO odoodb odoo.modules.loading: Module auth_totp: loading demo 
+2023-04-25 13:59:17,641 1 INFO odoodb odoo.modules.loading: Module auth_totp loaded in 0.46s, 194 queries 
+2023-04-25 13:59:17,642 1 INFO odoodb odoo.modules.loading: Loading module base_import (4/7) 
+2023-04-25 13:59:17,753 1 INFO odoodb odoo.modules.registry: module base_import: creating or updating database tables 
+2023-04-25 13:59:19,221 1 INFO odoodb odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2023-04-25 13:59:19,282 1 INFO odoodb odoo.modules.loading: Module base_import: loading demo 
+2023-04-25 13:59:19,308 1 INFO odoodb odoo.modules.loading: Module base_import loaded in 1.67s, 921 queries 
+2023-04-25 13:59:19,308 1 INFO odoodb odoo.modules.loading: Loading module web_editor (5/7) 
+2023-04-25 13:59:19,413 1 INFO odoodb odoo.modules.registry: module web_editor: creating or updating database tables 
+2023-04-25 13:59:19,614 1 INFO odoodb odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2023-04-25 13:59:19,637 1 INFO odoodb odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2023-04-25 13:59:19,646 1 INFO odoodb odoo.modules.loading: loading web_editor/views/editor.xml 
+2023-04-25 13:59:19,694 1 INFO odoodb odoo.modules.loading: loading web_editor/views/snippets.xml 
+2023-04-25 13:59:19,747 1 INFO odoodb odoo.modules.loading: Module web_editor: loading demo 
+2023-04-25 13:59:19,773 1 INFO odoodb odoo.modules.loading: Module web_editor loaded in 0.46s, 247 queries 
+2023-04-25 13:59:19,774 1 INFO odoodb odoo.modules.loading: Loading module web_kanban_gauge (6/7) 
+2023-04-25 13:59:19,928 1 INFO odoodb odoo.modules.loading: Module web_kanban_gauge: loading demo 
+2023-04-25 13:59:19,979 1 INFO odoodb odoo.modules.loading: Module web_kanban_gauge loaded in 0.20s, 20 queries 
+2023-04-25 13:59:19,979 1 INFO odoodb odoo.modules.loading: Loading module web_tour (7/7) 
+2023-04-25 13:59:20,038 1 INFO odoodb odoo.modules.registry: module web_tour: creating or updating database tables 
+2023-04-25 13:59:20,104 1 INFO odoodb odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2023-04-25 13:59:20,126 1 INFO odoodb odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2023-04-25 13:59:20,145 1 INFO odoodb odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2023-04-25 13:59:20,183 1 INFO odoodb odoo.modules.loading: Module web_tour: loading demo 
+2023-04-25 13:59:20,212 1 INFO odoodb odoo.modules.loading: Module web_tour loaded in 0.23s, 118 queries 
+2023-04-25 13:59:20,213 1 INFO odoodb odoo.modules.loading: 7 modules loaded in 4.60s, 2388 queries (+0 extra) 
+2023-04-25 13:59:20,591 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 13:59:20,595 1 INFO odoodb odoo.modules.registry: Registry loaded in 23.681s 
+2023-04-25 13:59:20,751 1 INFO odoodb odoo.addons.base.models.res_users: Login successful for db:odoodb login:odoo@odoo.es from 172.21.0.1 
+2023-04-25 13:59:20,787 1 INFO odoodb odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-25 13:59:20,801 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:20] "POST /web/database/create HTTP/1.1" 303 - 17959 17.175 9.404
+2023-04-25 13:59:20,820 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 13:59:24,582 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:24] "GET /web HTTP/1.1" 200 - 179 0.158 3.607
+2023-04-25 13:59:25,112 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.021 0.025
+2023-04-25 13:59:25,143 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:25] "POST /web/action/load HTTP/1.1" 200 - 28 0.039 0.032
+2023-04-25 13:59:25,167 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:25] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.013 0.015
+2023-04-25 13:59:25,275 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:25] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.059 0.059
+2023-04-25 13:59:25,368 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.034 0.024
+2023-04-25 13:59:25,398 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:25] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.010
+2023-04-25 13:59:34,824 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:34] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.007 0.016
+2023-04-25 13:59:34,902 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.058 0.050
+2023-04-25 13:59:36,732 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.051 0.034
+2023-04-25 13:59:36,762 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.007 0.009
+2023-04-25 13:59:37,425 1 INFO odoodb odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-04-25 13:59:37,461 1 INFO odoodb odoo.addons.base.models.ir_attachment: filestore gc 5 checked, 0 removed 
+2023-04-25 13:59:37,533 1 INFO odoodb odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2023-04-25 13:59:37,574 1 INFO odoodb odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-04-25 13:59:37,589 1 INFO odoodb odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-04-25 13:59:39,219 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Sparse Fields'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 13:59:39,220 1 INFO odoodb odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-04-25 13:59:39,223 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Sparse Fields'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 13:59:39,327 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 13:59:39,338 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:59:39,369 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-25 13:59:39,371 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.21.0.1 
+2023-04-25 13:59:40,389 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:59:40,842 1 INFO odoodb odoo.modules.loading: loading 7 modules... 
+2023-04-25 13:59:40,849 1 INFO odoodb odoo.modules.loading: 7 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:59:40,851 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 13:59:40,852 1 INFO odoodb odoo.modules.loading: Loading module base_sparse_field (2/8) 
+2023-04-25 13:59:40,929 1 INFO odoodb odoo.modules.registry: module base_sparse_field: creating or updating database tables 
+2023-04-25 13:59:41,935 1 INFO odoodb odoo.modules.loading: loading base_sparse_field/security/ir.model.access.csv 
+2023-04-25 13:59:41,962 1 INFO odoodb odoo.modules.loading: loading base_sparse_field/views/views.xml 
+2023-04-25 13:59:41,994 1 INFO odoodb odoo.modules.loading: Module base_sparse_field: loading demo 
+2023-04-25 13:59:42,021 1 INFO odoodb odoo.modules.loading: Module base_sparse_field loaded in 1.17s, 774 queries 
+2023-04-25 13:59:42,021 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 1.17s, 774 queries (+0 extra) 
+2023-04-25 13:59:42,371 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 13:59:42,380 1 INFO odoodb odoo.modules.registry: Registry loaded in 3.069s 
+2023-04-25 13:59:42,381 1 INFO odoodb odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-25 13:59:42,386 1 INFO odoodb odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-25 13:59:42,389 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:42] "POST /web/dataset/call_button HTTP/1.1" 200 - 2149 2.007 1.174
+2023-04-25 13:59:42,417 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 13:59:42,889 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:42] "GET /web HTTP/1.1" 200 - 164 0.156 0.321
+2023-04-25 13:59:43,391 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:43] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.100 0.024
+2023-04-25 13:59:43,412 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:43] "POST /web/action/load HTTP/1.1" 200 - 28 0.031 0.110
+2023-04-25 13:59:43,522 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:43] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.049 0.046
+2023-04-25 13:59:43,594 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.027 0.020
+2023-04-25 13:59:43,626 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:43] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.011
+2023-04-25 13:59:44,893 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.007 0.014
+2023-04-25 13:59:44,952 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.049 0.035
+2023-04-25 13:59:47,412 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.038 0.025
+2023-04-25 13:59:47,440 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.007 0.008
+2023-04-25 13:59:48,918 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 13:59:48,919 1 INFO odoodb odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-04-25 13:59:48,924 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 13:59:48,942 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:59:49,030 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 13:59:49,040 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:59:49,073 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-25 13:59:49,076 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.21.0.1 
+2023-04-25 13:59:50,136 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:59:50,590 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 13:59:50,599 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:59:50,600 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:59:50,601 1 INFO odoodb odoo.modules.loading: loading 9 modules... 
+2023-04-25 13:59:50,602 1 INFO odoodb odoo.modules.loading: Loading module sql_assistant (3/9) 
+2023-04-25 13:59:50,732 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 13:59:50,761 1 INFO odoodb odoo.modules.registry: module sql_assistant: creating or updating database tables 
+2023-04-25 13:59:50,874 1 INFO odoodb odoo.modules.loading: loading sql_assistant/security/ir.model.access.csv 
+2023-04-25 13:59:50,897 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/views.xml 
+2023-04-25 13:59:50,923 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/assets.xml 
+2023-04-25 13:59:50,927 1 WARNING odoodb odoo.modules.loading: Transient module states were reset 
+2023-04-25 13:59:50,935 1 ERROR odoodb odoo.modules.registry: Failed to load registry 
+2023-04-25 13:59:50,935 1 ERROR odoodb odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 910, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1330, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1318, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 486, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 474, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 793, in convert_xml_import
+    doc = etree.parse(xmlfile)
+  File "src/lxml/etree.pyx", line 3521, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1900, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1795, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1201, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 615, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 725, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 654, in lxml.etree._raiseParseError
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+  File "/mnt/extra-addons/sql_assistant/views/assets.xml", line 11
+lxml.etree.XMLSyntaxError: Extra content at the end of the document, line 11, column 1
+2023-04-25 13:59:50,947 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 13:59:50,956 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:59:50,962 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 13:59:50,970 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 13:59:51,008 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 13:59:51,011 1 INFO odoodb odoo.modules.registry: Registry loaded in 0.072s 
+2023-04-25 13:59:51,012 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 13:59:51] "POST /web/dataset/call_button HTTP/1.1" 200 - 1200 0.977 1.131
+2023-04-25 14:00:41,699 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 14:00:41,858 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 14:00:41,859 1 INFO odoodb odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-04-25 14:00:41,863 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 14:00:41,889 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:00:42,021 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 14:00:42,031 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:00:42,063 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-25 14:00:42,066 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.21.0.1 
+2023-04-25 14:00:43,014 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:00:43,495 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 14:00:43,504 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:00:43,505 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:00:43,507 1 INFO odoodb odoo.modules.loading: loading 9 modules... 
+2023-04-25 14:00:43,507 1 INFO odoodb odoo.modules.loading: Loading module sql_assistant (3/9) 
+2023-04-25 14:00:43,570 1 INFO odoodb odoo.modules.registry: module sql_assistant: creating or updating database tables 
+2023-04-25 14:00:43,672 1 INFO odoodb odoo.modules.loading: loading sql_assistant/security/ir.model.access.csv 
+2023-04-25 14:00:43,694 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/views.xml 
+2023-04-25 14:00:43,717 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/assets.xml 
+2023-04-25 14:00:43,724 1 WARNING odoodb odoo.modules.loading: Transient module states were reset 
+2023-04-25 14:00:43,732 1 ERROR odoodb odoo.modules.registry: Failed to load registry 
+2023-04-25 14:00:43,732 1 ERROR odoodb odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 85, in lookup
+    r = d[key]
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: ('ir.model.data', <function IrModelData._xmlid_lookup at 0x7f259f58e160>, 'web.assets_backend')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 661, in _tag_template
+    return self._tag_record(record)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 567, in _tag_record
+    f_val = self.id_get(f_ref, raise_if_not_found=nodeattr2bool(rec, 'forcecreate', True))
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 666, in id_get
+    res = self.model_id_get(id_str, raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 672, in model_id_get
+    return self.env['ir.model.data']._xmlid_to_res_model_res_id(id_str, raise_if_not_found=raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1943, in _xmlid_to_res_model_res_id
+    return self._xmlid_lookup(xmlid)[1:3]
+  File "<decorator-gen-35>", line 2, in _xmlid_lookup
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 90, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1936, in _xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % xmlid)
+ValueError: External ID not found in the system: web.assets_backend
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 910, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1330, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1318, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 486, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 474, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 696, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing None:4, somewhere inside
+<data name="custom addon assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <img src="../static/src/logo.png" class="o_web_icon"/>
+            </xpath>
+        </data>
+2023-04-25 14:00:43,746 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 14:00:43,758 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:00:43,835 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 14:00:43,845 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:00:43,885 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 14:00:43,888 1 INFO odoodb odoo.modules.registry: Registry loaded in 0.151s 
+2023-04-25 14:00:43,889 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:00:43] "POST /web/dataset/call_button HTTP/1.1" 200 - 1208 0.970 1.235
+2023-04-25 14:01:30,657 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 14:01:30,769 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 14:01:30,769 1 INFO odoodb odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-04-25 14:01:30,772 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 14:01:30,789 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:01:30,886 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 14:01:30,896 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:01:30,929 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-25 14:01:30,932 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.21.0.1 
+2023-04-25 14:01:31,948 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:01:32,423 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 14:01:32,432 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:01:32,434 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:01:32,435 1 INFO odoodb odoo.modules.loading: loading 9 modules... 
+2023-04-25 14:01:32,435 1 INFO odoodb odoo.modules.loading: Loading module sql_assistant (3/9) 
+2023-04-25 14:01:32,522 1 INFO odoodb odoo.modules.registry: module sql_assistant: creating or updating database tables 
+2023-04-25 14:01:32,668 1 INFO odoodb odoo.modules.loading: loading sql_assistant/security/ir.model.access.csv 
+2023-04-25 14:01:32,691 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/views.xml 
+2023-04-25 14:01:32,723 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/assets.xml 
+2023-04-25 14:01:32,730 1 WARNING odoodb odoo.modules.loading: Transient module states were reset 
+2023-04-25 14:01:32,732 1 ERROR odoodb odoo.modules.registry: Failed to load registry 
+2023-04-25 14:01:32,732 1 ERROR odoodb odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 85, in lookup
+    r = d[key]
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: ('ir.model.data', <function IrModelData._xmlid_lookup at 0x7f259f58e160>, 'web.assets_backend')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 661, in _tag_template
+    return self._tag_record(record)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 567, in _tag_record
+    f_val = self.id_get(f_ref, raise_if_not_found=nodeattr2bool(rec, 'forcecreate', True))
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 666, in id_get
+    res = self.model_id_get(id_str, raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 672, in model_id_get
+    return self.env['ir.model.data']._xmlid_to_res_model_res_id(id_str, raise_if_not_found=raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1943, in _xmlid_to_res_model_res_id
+    return self._xmlid_lookup(xmlid)[1:3]
+  File "<decorator-gen-35>", line 2, in _xmlid_lookup
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 90, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1936, in _xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % xmlid)
+ValueError: External ID not found in the system: web.assets_backend
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 910, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1330, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1318, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 486, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 474, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 696, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing None:4, somewhere inside
+<data name="custom addon assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <img src="logo.png" class="o_web_icon"/>
+            </xpath>
+        </data>
+2023-04-25 14:01:32,743 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 14:01:32,752 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:01:32,758 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 14:01:32,766 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:01:32,806 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 14:01:32,808 1 INFO odoodb odoo.modules.registry: Registry loaded in 0.074s 
+2023-04-25 14:01:32,809 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:01:32] "POST /web/dataset/call_button HTTP/1.1" 200 - 1208 1.005 1.163
+2023-04-25 14:05:19,699 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 14:05:19,839 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:19] "GET / HTTP/1.1" 303 - 2 0.003 0.145
+2023-04-25 14:05:20,313 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:20] "GET /web HTTP/1.1" 200 - 164 0.187 0.272
+2023-04-25 14:05:20,960 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:20] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.054 0.031
+2023-04-25 14:05:20,984 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:20] "POST /web/action/load HTTP/1.1" 200 - 28 0.040 0.059
+2023-04-25 14:05:21,098 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:21] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.050 0.050
+2023-04-25 14:05:21,172 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.028 0.021
+2023-04-25 14:05:21,198 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:21] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.008
+2023-04-25 14:05:25,981 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.044 0.032
+2023-04-25 14:05:26,010 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.008
+2023-04-25 14:05:28,404 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 14:05:28,404 1 INFO odoodb odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-04-25 14:05:28,407 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Asistente SQL'] to user odoo@odoo.es #2 via 172.21.0.1 
+2023-04-25 14:05:28,418 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:05:28,498 1 INFO odoodb odoo.modules.loading: loading 1 modules... 
+2023-04-25 14:05:28,509 1 INFO odoodb odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:05:28,538 1 INFO odoodb odoo.modules.loading: updating modules list 
+2023-04-25 14:05:28,540 1 INFO odoodb odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.21.0.1 
+2023-04-25 14:05:29,581 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:05:29,998 1 INFO odoodb odoo.modules.loading: loading 8 modules... 
+2023-04-25 14:05:30,012 1 INFO odoodb odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-25 14:05:30,014 1 WARNING odoodb odoo.modules.module: Missing `license` key in manifest for 'sql_assistant', defaulting to LGPL-3 
+2023-04-25 14:05:30,015 1 INFO odoodb odoo.modules.loading: loading 9 modules... 
+2023-04-25 14:05:30,016 1 INFO odoodb odoo.modules.loading: Loading module sql_assistant (3/9) 
+2023-04-25 14:05:30,104 1 INFO odoodb odoo.modules.registry: module sql_assistant: creating or updating database tables 
+2023-04-25 14:05:30,214 1 INFO odoodb odoo.modules.loading: loading sql_assistant/security/ir.model.access.csv 
+2023-04-25 14:05:30,236 1 INFO odoodb odoo.modules.loading: loading sql_assistant/views/views.xml 
+2023-04-25 14:05:30,260 1 INFO odoodb odoo.modules.loading: Module sql_assistant: loading demo 
+2023-04-25 14:05:30,261 1 INFO odoodb odoo.modules.loading: loading sql_assistant/demo/demo.xml 
+2023-04-25 14:05:30,266 1 WARNING odoodb odoo.modules.loading: Module sql_assistant demo data failed to install, installed without demo data 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 586, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4428, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4344, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-67>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_fields.py", line 613, in create
+    recs = super().create(vals_list)
+  File "<decorator-gen-13>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4038, in create
+    raise ValueError("Invalid field %r on model %r" % (key, self._name))
+ValueError: Invalid field 'name' on model 'sql_assistant.sql_assistant'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 86, in load_demo
+    load_data(cr, idref, mode, kind='demo', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 696, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/sql_assistant/demo/demo.xml:3, somewhere inside
+<record id="object0" model="sql_assistant.sql_assistant">
+            <field name="name">Object 0</field>
+            <field name="value">0</field>
+          </record>
+2023-04-25 14:05:30,306 1 INFO odoodb odoo.modules.loading: Module sql_assistant loaded in 0.29s, 117 queries 
+2023-04-25 14:05:30,307 1 INFO odoodb odoo.modules.loading: 9 modules loaded in 0.29s, 117 queries (+0 extra) 
+2023-04-25 14:05:30,744 1 INFO odoodb odoo.modules.loading: Modules loaded. 
+2023-04-25 14:05:30,754 1 INFO odoodb odoo.modules.registry: Registry loaded in 2.267s 
+2023-04-25 14:05:30,755 1 INFO odoodb odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-25 14:05:30,761 1 INFO odoodb odoo.addons.base.models.ir_module: next action is "Demo Failure Notification" 
+2023-04-25 14:05:30,807 1 INFO odoodb odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-25 14:05:30,810 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:30] "POST /web/dataset/call_button HTTP/1.1" 200 - 1522 1.232 1.185
+2023-04-25 14:05:30,825 1 INFO odoodb odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-04-25 14:05:30,975 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:30] "POST /web/action/run HTTP/1.1" 200 - 22 0.026 0.127
+2023-04-25 14:05:31,035 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:31] "POST /web/dataset/call_kw/ir.demo_failure.wizard/load_views HTTP/1.1" 200 - 20 0.022 0.023
+2023-04-25 14:05:31,059 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:31] "POST /web/dataset/call_kw/ir.demo_failure.wizard/read HTTP/1.1" 200 - 4 0.003 0.007
+2023-04-25 14:05:31,081 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:31] "POST /web/dataset/call_kw/ir.demo_failure/read HTTP/1.1" 200 - 3 0.004 0.007
+2023-04-25 14:05:32,913 1 INFO odoodb odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-25 14:05:32,921 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:32] "POST /web/dataset/call_button HTTP/1.1" 200 - 2 0.003 0.013
+2023-04-25 14:05:33,494 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:33] "GET /web HTTP/1.1" 200 - 163 0.217 0.311
+2023-04-25 14:05:33,578 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:33] "GET /web/webclient/load_menus/d9828183331fa125fea7f2daad58cfa27a60d811c1023f38cf4ee9b3dabcf146 HTTP/1.1" 200 - 1 0.002 0.011
+2023-04-25 14:05:33,937 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:33] "POST /web/action/load HTTP/1.1" 200 - 12 0.012 0.018
+2023-04-25 14:05:33,954 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.023 0.026
+2023-04-25 14:05:34,000 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:34] "POST /web/dataset/call_kw/sql_assistant.sql_assistant/load_views HTTP/1.1" 200 - 15 0.016 0.019
+2023-04-25 14:05:34,031 1 INFO odoodb werkzeug: 172.21.0.1 - - [25/Apr/2023 14:05:34] "POST /web/dataset/call_kw/sql_assistant.sql_assistant/onchange HTTP/1.1" 200 - 3 0.003 0.007
+2023-04-25 14:05:40,408 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-25 14:05:40,408 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-25 14:05:40,533 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  

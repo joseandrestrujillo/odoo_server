@@ -18,7 +18,7 @@
     # for the full list
     'category': 'Uncategorized',
     'version': '0.1',
-
+    'icon': '/sql_assistant/static/src/logo.png',
     # any module necessary for this one to work correctly
     'depends': ['base'],
 
@@ -26,7 +26,6 @@
     'data': [
         'security/ir.model.access.csv',
         'views/views.xml',
-        'views/assets.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
