@@ -1,6 +1,5 @@
 <odoo>
     <data>
-
         <record model="ir.actions.act_window" id="action_sql_assistant">
             <field name="name">Asistente SQL</field>
             <field name="res_model">sql_assistant.sql_assistant</field>
@@ -20,6 +19,12 @@
                         <button string="Enviar" name="execute_query" type="object" class="btn-primary"/>
                         <button string="Cancelar" special="cancel"/>
                     </footer>
+                    <field name="record_ids" nolabel="1" widget="x2many_list" options="{'no_create': True, 'no_open': True}">
+                        <tree>
+                            <field name="data" invisible="1"/>
+                            <field name="display_name"/>
+                        </tree>
+                    </field>
                 </form>
             </field>
         </record>
